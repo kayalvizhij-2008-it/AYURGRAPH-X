@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Next.js & Frontend Build Outputs
+frontend/.next/
+.next/
+out/
+build/
+dist/
+.vercel
+*.tsbuildinfo
+
+# Logs & Temporary files
+*.log
+backend_stderr.log
+backend_stdout.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+temp_home.html
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
